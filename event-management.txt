@@ -1,0 +1,107 @@
+teknologi yang digunakan:
+
+#front end
+⦁	react.js
+⦁	tailwind css
+⦁	react router DOM
+⦁	fetch api
+
+#backend
+⦁	nodeJS + Express
+⦁	prima + postgresSQL
+⦁	JWT
+⦁	multer
+
+
+daftar tugas projectnya:
+
+>>> FITUR 1: AUTHENTIKASI & USER:
+
+# Tugas Backend:
+✅ Buat table users (id, email, password, role, referral_code)
+✅ API register: /api/auth/register (customer/organizer)
+✅ API login: /api/auth/login
+✅ Sistem referral: generate kode & beri points
+✅ Middleware cek token
+
+# Tugas Frontend:
+✅ Halaman Register (form email, password, role, referral)
+✅ Halaman Login (form email, password)
+✅ Navigation bar dengan tombol login/logout
+✅ Simpan token di local storage
+
+>>> FITUR 2: EVENT MANAGEMENT:
+
+# Tugas Backend:
+✅ Buat table events (id, name, price, date, seats, organizer_id)
+✅ API GET /api/events (list semua event)
+✅ API POST /api/events (buat event baru - organizer only)
+✅ API GET /api/events/:id (detail event)
+✅ Filter events by kategori/lokasi
+
+# Tugas Frontend:
+✅ Halaman Home: list semua event (card event)
+✅ Halaman Detail Event: tampilkan detail lengkap
+✅ Halaman Buat Event: form buat event (organizer only)
+✅ Search bar dengan debounce
+
+
+>>> FITUR 3: TRANSACTION & TIKET:
+
+# Tugas Backend:
+✅ Buat table transactions (id, user_id, event_id, status, payment_proof)
+✅ API POST /api/transactions (buat transaksi)
+✅ API POST /api/transactions/upload-proof (upload bukti bayar)
+✅ Update status otomatis (expired, canceled)
+✅ Kurangi kursi available ketika booking
+
+# Tugas Frontend:
+✅ Halaman Checkout: form beli tiket
+✅ Component Upload Bukti Bayar
+✅ Countdown timer 2 jam
+✅ Halaman Riwayat Transaksi user
+
+>>> FITUR 4: DASHBOARD ORGANIZER:
+
+# Tugas Backend:
+✅ API GET /api/organizer/events (event punya organizer)
+✅ API GET /api/organizer/transactions (transaksi eventnya)
+✅ API PUT /api/transactions/:id/status (terima/tolak pembayaran)
+✅ Hitung statistik sederhana
+
+# Tugas Frontend:
+✅ Halaman Dashboard Organizer
+✅ List event yang dibuat organizer
+✅ List transaksi yang perlu dikonfirmasi
+✅ Tombol terima/tolak pembayaran
+
+>>> FITUR 5: PROFILE & REVIEW:
+
+# Tugas Backend:
+✅ Buat table reviews (id, user_id, event_id, rating, comment)
+✅ API GET/PUT /api/users/profile
+✅ API POST /api/reviews (tambah review)
+✅ Tampilkan rating di profile organizer
+
+# Tugas Frontend:
+✅ Halaman Profile User (edit data)
+✅ Form beri review setelah event
+✅ Tampilkan rating di profile organizer
+
+
+
+KESIMPULAN:
+✅ Fitur 1: Authentication & User
+✅ Fitur 2: Event Management
+✅ Fitur 3: Transaction & Tiket
+✅ Fitur 4: Dashboard Organizer
+✅ Fitur 5: Profile & Review
+
+
+
+
+tools before code:
+🔲 Node.js
+🔲 VS Code
+🔲 PostgreSQL
+🔲 Git
