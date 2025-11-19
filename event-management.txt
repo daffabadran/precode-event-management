@@ -8,7 +8,7 @@ teknologi yang digunakan:
 
 #backend
 ⦁	nodeJS + Express
-⦁	prima + postgresSQL
+⦁	prisma + postgresSQL
 ⦁	JWT
 ⦁	multer
 
