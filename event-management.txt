@@ -105,3 +105,46 @@ tools before code:
 🔲 VS Code
 🔲 PostgreSQL
 🔲 Git
+
+
+
+
+>>> yang harus dipelajari untuk project ini <<<
+BACKEND DEVELOPER - 4 HAL:
+1. EXPRESS.JS
+   - Bikin server
+   - Bikin routes (GET, POST)
+   - Request & response
+
+2. PRISMA  
+   - Koneksi ke database
+   - Buat tables
+   - Query data (create, read, update)
+
+3. JWT
+   - Bikin token login
+   - Verifikasi token
+
+4. MULTER
+   - Upload file (bukti bayar)
+
+------------------------------------
+
+FRONTEND DEVELOPER - 4 HAL:
+1. REACT.JS
+   - Components
+   - useState, useEffect
+   - Props
+
+2. TAILWIND CSS
+   - Flexbox, grid
+   - Padding, margin
+   - Responsive design
+
+3. REACT ROUTER DOM
+   - Navigasi halaman
+   - Protected routes
+
+4. FETCH API
+   - GET data dari backend
+   - POST data ke backend
